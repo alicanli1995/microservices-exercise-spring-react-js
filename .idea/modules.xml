@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Course-service/Project.iml" filepath="$PROJECT_DIR$/Course-service/Project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-service/eureka-service.iml" filepath="$PROJECT_DIR$/eureka-service/eureka-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/gateway-service/gateway-service.iml" filepath="$PROJECT_DIR$/gateway-service/gateway-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/microservices-exercise-spring-react-js.iml" filepath="$PROJECT_DIR$/.idea/microservices-exercise-spring-react-js.iml" />
       <module fileurl="file://$PROJECT_DIR$/purchase-service/purchase-service.iml" filepath="$PROJECT_DIR$/purchase-service/purchase-service.iml" />

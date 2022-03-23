@@ -1,6 +1,4 @@
 
-ä
-Zpurchase-service/src/main/java/com/example/purchaseservice/PurchaseServiceApplication.java,0\5\05a6014107ec716c2d9502748633357c1244cef0
 9
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 Ü
@@ -19,8 +17,6 @@ x
 Hgateway-service/src/main/java/com/example/gatewayservice/model/User.java,7\f\7fc9f8c8165c303dfc34ef39b7a5cf6403fa6066
 ä
 Zgateway-service/src/main/java/com/example/gatewayservice/service/impl/UserServiceImpl.java,7\6\76e07713860d26011f9ec73821686dc62965bd3e
-á
-Wgateway-service/src/main/java/com/example/gatewayservice/GatewayServiceApplication.java,b\9\b9608588d67c0720fc218f036ffe9070d9deada1
 n
 >Course-service/src/main/java/com/sha/project/model/Course.java,0\4\044d2ea4a0997ddfa988b2cf6bba1ac67209470e
 Å
@@ -29,10 +25,6 @@ Qgateway-service/src/main/java/com/example/gatewayservice/service/UserService.ja
 agateway-service/src/main/java/com/example/gatewayservice/security/jwt/JwtAuthorizationFilter.java,9\0\9058e8fcc1268d5d4003c5494e311c04dca49b40
 Ö
 Ugateway-service/src/main/java/com/example/gatewayservice/security/SecurityConfig.java,0\b\0bff88c4ff30e16033fed17f80d988e2c6baa886
-t
-DCourse-service/src/main/java/com/sha/project/ProjectApplication.java,8\6\8672bdb0fec56557d3dfce39a3f0086349a7ff60
-á
-Wgateway-service/src/main/java/com/example/gatewayservice/controller/UserController.java,2\d\2d43a5f1cb4848ed2f0efa2d164e1afe617d0071
 á
 Wgateway-service/src/main/java/com/example/gatewayservice/controller/AuthController.java,1\0\108ed4bcb67441196eb63b6d6a214ff6c0865385
 y
@@ -43,11 +35,17 @@ MCourse-service/src/main/java/com/sha/project/controller/CourseController.java,
 Qgateway-service/src/main/java/com/example/gatewayservice/request/FeignConfig.java,8\2\828ce21d4b76e651b8ed3751c360c2d6172f7356
 å
 \gateway-service/src/main/java/com/example/gatewayservice/request/PurchaseServiceRequest.java,5\8\5806f02acf86e8da24e82e9c11ff0134d547ea61
-ä
-Zgateway-service/src/main/java/com/example/gatewayservice/request/CourseServiceRequest.java,f\b\fb128e04c62e3f923c7d7ae224fb0bb94c706e98
 â
 Ygateway-service/src/main/java/com/example/gatewayservice/controller/CourseController.java,7\f\7fa71d7c1facf47bd1df8074572e1cf815a5afc9
 ç
 ]purchase-service/src/main/java/com/example/purchaseservice/controller/PurchaseController.java,2\4\242c02835c2928c05a4a4e1b078fbd5c8245f383
+F
+eureka-service/HELP.md,5\1\511012845b5ef1061f2fac82dbaf4879e490554b
+á
+Wgateway-service/src/main/java/com/example/gatewayservice/controller/UserController.java,2\d\2d43a5f1cb4848ed2f0efa2d164e1afe617d0071
 ã
 [gateway-service/src/main/java/com/example/gatewayservice/controller/PurchaseController.java,5\2\5228f72a6631b9783fdd42fdec9c63c801be51ce
+ä
+Zgateway-service/src/main/java/com/example/gatewayservice/request/CourseServiceRequest.java,f\b\fb128e04c62e3f923c7d7ae224fb0bb94c706e98
+G
+gateway-service/pom.xml,6\2\627bed90df51db9ce1f2c987c3ddc0380c236bae
