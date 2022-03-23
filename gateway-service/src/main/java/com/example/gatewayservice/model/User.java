@@ -38,6 +38,9 @@ public class User {
     @Column(nullable = false)
     private Role role;
 
+    @Transient
+    private String token;
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

@@ -9,6 +9,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.time.LocalDateTime;
 import java.util.Optional;
 
 @Service
@@ -23,6 +24,7 @@ public class UserServiceImpl implements UserService {
     public User saveUser(User user){
         user.setPassword(passwordEncoder.encode(user.getPassword()));
         user.setRole(Role.USER);
+        user.setCreatedTime(LocalDateTime.now());
         return userRepository.save(user);
     }
 
