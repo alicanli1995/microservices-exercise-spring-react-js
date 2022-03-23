@@ -16,14 +16,14 @@ import java.util.List;
 @CrossOrigin
 @Validated
 @RequestScope
-@RequestMapping("/courses")
+@RequestMapping("/api/course")
 @RequiredArgsConstructor
 public class CourseController {
 
     private final CourseService courseService;
 
     @PostMapping
-    public ResponseEntity<Course> saveCourse(@RequestBody @Validated Course course){
+    public ResponseEntity<Course> saveCourse(@RequestBody Course course){
         return  ResponseEntity.ok(courseService.saveCourse(course));
     }
 

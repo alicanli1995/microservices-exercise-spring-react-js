@@ -1,0 +1,5 @@
+
+q	java:S116"URename this field "JWT_SECRET" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âş›8ÂïÆ¬û/
+z	java:S116 "^Rename this field "JWT_EXPIRATION_TIME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹¦º±8ÃïÆ¬û/
+A
+java:S1168P"$Return an empty map instead of null.(¥¹ï8ĞïÆ¬û/

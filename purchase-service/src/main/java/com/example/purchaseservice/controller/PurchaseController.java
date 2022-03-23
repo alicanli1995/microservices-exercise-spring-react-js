@@ -15,7 +15,7 @@ import java.util.List;
 @CrossOrigin
 @RequestScope
 @RequiredArgsConstructor
-@RequestMapping("/purchase")
+@RequestMapping("/api/purchase")
 public class PurchaseController {
 
     private final PurchaseService purchaseService;
@@ -24,6 +24,7 @@ public class PurchaseController {
     public ResponseEntity<Purchase> savePurchase(@RequestBody Purchase purchase){
         return new ResponseEntity(purchaseService.savePurchase(purchase), HttpStatus.CREATED);
     }
+
     @GetMapping("/{userId}")
     public ResponseEntity<List<Purchase>> getAllPurchaseById(@PathVariable Long userId){
         return ResponseEntity.ok(purchaseService.findAllPurchases(userId));
