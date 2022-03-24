@@ -7,7 +7,7 @@ import java.util.List;
 
 @FeignClient(value = "course-service",
              path = "/api/course",
-             url = "${course.service.url}",
+//             url = "${course.service.url}",
              configuration = FeignConfig.class)
 
 public interface CourseServiceRequest {
