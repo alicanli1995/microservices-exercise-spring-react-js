@@ -7,6 +7,9 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {Provider} from "react-redux";
 import store from "./store";
+import {handleResponseWithLoginCheck} from "./service/base.service";
+
+handleResponseWithLoginCheck();
 
 ReactDOM.render(
   <React.StrictMode>
